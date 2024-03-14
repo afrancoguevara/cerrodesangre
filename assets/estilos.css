@@ -12,5 +12,5 @@ body, html {
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 86.6px solid #8B0000; /* La altura del triángulo se calcula como (lado * sqrt(3)) / 2 */
+    border-bottom: 86.6px solid #8B0000; /* (lado * sqrt(3)) / 2 */
   }
