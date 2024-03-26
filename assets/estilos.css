@@ -15,28 +15,3 @@ body, html {
     border-right: 50px solid transparent;
     border-bottom: 86.6px solid #8B0000; /* (lado * sqrt(3)) / 2 */
   }
-  
-.monte1 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 200px; /* Adjust height as needed */
-    background: #778899; /* Dim gray */
-    clip-path: polygon(0% 100%, 25% 70%, 50% 100%, 75% 70%, 100% 100%);
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    z-index: -1;
-  }
-  .monte2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 250px; /* Adjust height as needed */
-    background: #A9A9A9; /* Dark gray */
-    clip-path: polygon(0% 100%, 20% 60%, 40% 100%, 60% 60%, 80% 100%, 100% 100%);
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 150px;
-    z-index: -1;
-  }
