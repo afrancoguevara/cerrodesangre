@@ -39,8 +39,11 @@ body, html {
   @media only screen and (max-width: 48em) {
     h1 {
       writing-mode: vertical-rl;
-    text-orientation: mixed;
-    white-space: nowrap;
+      text-orientation: mixed;
+      white-space: nowrap;
+      left: 25%;
+      color: #f00000;
+      bottom: 1rem;
     }
     
   }
