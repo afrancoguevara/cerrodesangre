@@ -2,7 +2,8 @@ body {
   background-image: url('/assets/cerro.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 300px;
+    background-position: 50% 25%;
+    width: 30vw;
 }
 
 body, html {
@@ -12,7 +13,11 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
 
 /*--- icon --- */
 .cerro {
@@ -21,4 +26,12 @@ body, html {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 86.6px solid #ffffff; /* (lado * sqrt(3)) / 2 */
+  }
+  
+  h1 {
+    position: absolute; /* Para posicionar el h1 relativo al div .cerro */      
+    left: 50%; /* Centrar horizontalmente */
+    bottom: 2rem; /* Ajustar la distancia del h1 con respecto al div .cerro */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    color:#ffffff;
   }
