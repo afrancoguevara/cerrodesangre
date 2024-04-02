@@ -35,3 +35,12 @@ body, html {
     transform: translateX(-50%); /* Centrar horizontalmente */
     color:#ffffff;
   }
+
+  @media only screen and (max-width: 48em) {
+    h1 {
+      writing-mode: vertical-rl;
+    text-orientation: mixed;
+    white-space: nowrap;
+    }
+    
+  }
